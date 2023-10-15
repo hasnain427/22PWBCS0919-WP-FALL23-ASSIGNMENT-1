@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos</title>
+    <style>
+        .images{
+            border: 2px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+            width: 98.7%;
+            height: 100%;
+        }
+
+        .images img{
+            width: 500px;
+            height: 500px;
+            margin: 20px;
+        }
+     nav ul li{
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.bar{
+text-align: center;
+} 
+nav ul li a{
+text-decoration: none;
+transition:all;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 1s;
+}
+a{
+color: white;
+}
+
+    </style>
+  </head>
+  <body style="background-color: black">
+    <nav  class="bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="destination.html">Destination</a></li>
+        <li><a href="stories.html">Stories</a></li>
+    </ul>
+</nav>
+    <div class="images">
+        <img src="Images/pic10.jpg" alt="">
+        <img src="Images/pic9.jpg" alt="">
+        <img src="Images/pic8.jpg" alt="">
+        <img src="Images/pic7.jpg" alt="">
+        <img src="Images/pic6.jpg" alt="">
+        <img src="Images/pic5.jpg" alt="">
+        
+    </div>
+  </body>
+</html>
